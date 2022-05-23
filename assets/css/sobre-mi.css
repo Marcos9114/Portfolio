@@ -1,0 +1,21 @@
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAF2FD;
+    color: #464646;
+    height: 18vw;
+    justify-content: center;
+}
+
+.sobre-mi h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.37rem;
+}
+
+.sobre-mi p {
+    width: 60%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.19rem;
+}

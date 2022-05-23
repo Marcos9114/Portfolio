@@ -1,0 +1,39 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #654e9c;
+    color: aliceblue;
+
+}
+
+.container {
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+
+.boton{
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    color: #0099CC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 1280px){
+    .container {
+        margin: auto;
+        width: 70%;
+    }
+}
+@media screen and (max-width:600px){
+    .container{
+      padding: 0;
+      width: 96%;
+    }
+}
